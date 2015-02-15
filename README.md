@@ -18,7 +18,7 @@ Original source:
 boxBlurImage(sourceImageID, targetCanvas, radius, blurAlphaChannel);
 ```
 
-**RGBA Canvas as source:**
+**RGBA CanvasRenderingContext2D as source:**
 
 ```javascript
 boxBlurCanvasRGBA(targetContext, top_x, top_y, width, height, radius);
@@ -26,7 +26,7 @@ boxBlurCanvasRGBA(targetContext, top_x, top_y, width, height, radius);
 
   * `targetContext`: the `CanvasRenderingContext2D`.
 
-**RGB Canvas as source:**
+**RGB CanvasRenderingContext2D as source:**
 
 ```javascript
 boxBlurCanvasRGB(targetContext, top_x, top_y, width, height, radius);
